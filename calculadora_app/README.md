@@ -1,6 +1,6 @@
 # calculadora
 
-Proyectode aplicacion mobile de una calculadora. Aun en desarrollo
+Proyecto de aplicacion mobile de una calculadora. Aun en desarrollo
 
 ## Getting Started
 
