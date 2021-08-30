@@ -1,6 +1,6 @@
 # clima_app
 
-A new Flutter project.
+Aplicacion sobre el clima actual. Aun en  desarrrollo
 
 ## Getting Started
 
