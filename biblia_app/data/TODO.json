@@ -1,0 +1,335 @@
+{
+    "nombreApp" : "Libro",
+    "rutas" : [
+        {
+            "nombre" : "Génesis",
+            "ingles" : "Genesis",
+            "capitulos" : 50
+        },
+        {
+            "nombre" : "Éxodo",
+            "ingles" : "Exodus",
+            "capitulos" : 40
+        },
+        {
+            "nombre" : "Levíticos",
+            "ingles" : "Leviticus",
+            "capitulos" : 27
+        },
+	    {
+            "nombre" : "Números",
+            "ingles" : "Numbers",
+            "capitulos" : 36
+        },
+	    {
+            "nombre" : "Deuteronomio",
+            "ingles" : "Deuteronomy",
+            "capitulos" : 34
+        },
+	    {
+            "nombre" : "Josué",
+            "ingles" : "Joshua",
+            "capitulos" : 24
+        },
+	    {
+            "nombre" : "Jueces",
+            "ingles" : "Judges",
+            "capitulos" : 21
+        },
+	    {
+            "nombre" : "Rut",
+            "ingles" : "Ruth",
+            "capitulos" : 4
+        },
+	    {
+            "nombre" : "1 Samuel",
+            "ingles" : "1 Samuel",
+            "capitulos" : 31
+        },
+	    {
+            "nombre" : "2 Samuel",
+            "ingles" : "2 Samuel",
+            "capitulos" : 24
+        },
+	    {
+            "nombre" : "1 Reyes",
+            "ingles" : "1 Kings",
+            "capitulos" : 22
+        },
+	    {
+            "nombre" : "2 Reyes",
+            "ingles" : "2 Kings",
+            "capitulos" : 25
+        },
+	    {
+            "nombre" : "1 Crónicas",
+            "ingles" : "1 Chronicles",
+            "capitulos" : 29
+        },
+	    {
+            "nombre" : "2 Crónicas",
+            "ingles" : "2 Chronicles",
+            "capitulos" : 36
+        },
+	    {
+            "nombre" : "Esdras",
+            "ingles" : "Ezra",
+            "capitulos" : 10
+        },
+	    {
+            "nombre" : "Nehemías",
+            "ingles" : "Nehemiah",
+            "capitulos" : 13
+        },
+	    {
+            "nombre" : "Ester",
+            "ingles" : "Esther",
+            "capitulos" : 10
+        },
+	    {
+            "nombre" : "Job",
+            "ingles" : "Job",
+            "capitulos" : 42
+        },
+	    {
+            "nombre" : "Salmos",
+            "ingles" : "Psalms",
+            "capitulos" : 150
+        },
+	    {
+            "nombre" : "Proverbios",
+            "ingles" : "Proverbs",
+            "capitulos" : 31
+        },
+	    {
+            "nombre" : "Eclesiastés",
+            "ingles" : "Ecclesiastes",
+            "capitulos" : 12
+        },
+	    {
+            "nombre" : "Cantares",
+            "ingles" : "Song of Solomon",
+            "capitulos" : 8
+        },
+	    {
+            "nombre" : "Isaías",
+            "ingles" : "Isaiah",
+            "capitulos" : 66
+        },
+	    {
+            "nombre" : "Jeremías",
+            "ingles" : "Jeremiah",
+            "capitulos" : 52
+        },
+	    {
+            "nombre" : "Lamentaciones",
+            "ingles" : "Lamentations",
+            "capitulos" : 5
+        },
+	    {
+            "nombre" : "Ezequiel",
+            "ingles" : "Ezekiel",
+            "capitulos" : 48
+        },
+	    {
+            "nombre" : "Daniel",
+            "ingles" : "Daniel",
+            "capitulos" : 12
+        },
+	    {
+            "nombre" : "Oseas",
+            "ingles" : "Hosea",
+            "capitulos" : 14
+      	},
+	    {
+            "nombre" : "Joel",
+            "ingles" : "Joel",
+            "capitulos" : 13
+        },
+	    {
+            "nombre" : "Amós",
+            "ingles" : "Amos",
+            "capitulos" : 9
+        },
+	    {
+            "nombre" : "Abdías",
+            "ingles" : "Obadiah",
+            "capitulos" : 1
+        },
+	    {
+            "nombre" : "Jonás",
+            "ingles" : "Jonah",
+            "capitulos" : 4
+        },
+	    {
+            "nombre" : "Miqueas",
+            "ingles" : "Micah",
+            "capitulos" : 7
+        },
+	    {
+            "nombre" : "Nahúm",
+            "ingles" : "Nahum",
+            "capitulos" : 3
+        },
+	    {
+            "nombre" : "Habacuc",
+            "ingles" : "Habakkuk",
+            "capitulos" : 3
+        },
+	    {
+            "nombre" : "Sofonías",
+            "ingles" : "Zephaniah",
+            "capitulos" : 3
+        },
+	    {
+            "nombre" : "Hageo",
+            "ingles" : "Haggai",
+            "capitulos" : 2
+        },
+	    {
+            "nombre" : "Zacarías",
+            "ingles" : "Zechariah",
+            "capitulos" : 14
+        },
+	    {
+            "nombre" : "Malaquías",
+            "ingles" : "Malachi",
+            "capitulos" : 4
+        },
+	    {
+            "nombre" : "Mateo",
+            "ingles" : "Matthew",
+            "capitulos" : 28
+        },
+        {
+            "nombre" : "Marcos",
+            "ingles" : "Mark",
+            "capitulos" : 16
+        },
+        {
+            "nombre" : "Lucas",
+            "ingles" : "Luke",
+            "capitulos" : 24
+        },
+        {
+            "nombre" : "Juan",
+            "ingles" : "John",
+            "capitulos" : 21
+        },
+	    {
+            "nombre" : "Hechos",
+            "ingles" : "Acts",
+            "capitulos" : 18
+        },
+	    {
+            "nombre" : "Romanos",
+            "ingles" : "Romans",
+            "capitulos" : 16
+        },
+	    {
+            "nombre" : "1 Corintios",
+            "ingles" : "1 Corinthians",
+            "capitulos" : 24
+        },
+	    {
+            "nombre" : "2 Corintios",
+            "ingles" : "2 Corinthians",
+            "capitulos" : 13
+        },
+	    {
+            "nombre" : "Gálatas",
+            "ingles" : "Galatians",
+            "capitulos" : 6
+        },
+	    {
+            "nombre" : "Efesios",
+            "ingles" : "Ephesians",
+            "capitulos" : 6
+        },
+	    {
+            "nombre" : "Filipenses",
+            "ingles" : "Philippians",
+            "capitulos" : 4
+        },
+	    {
+            "nombre" : "Colosenses",
+            "ingles" : "Colossians",
+            "capitulos" : 4
+        },
+	    {
+            "nombre" : "1 Tesaloniceneses",
+            "ingles" : "1 Thessalonians",
+            "capitulos" : 4
+        },
+	    {
+            "nombre" : "2 Tesaloniceneses",
+            "ingles" : "2 Thessalonians",
+            "capitulos" : 22
+        },
+	    {
+            "nombre" : "1 Timoteo",
+            "ingles" : "1 Timothy",
+            "capitulos" : 6
+        },
+	    {
+            "nombre" : "2 Timoteo",
+            "ingles" : "2 Timothy",
+            "capitulos" : 4
+        },
+	    {
+            "nombre" : "Tito",
+            "ingles" : "Titus",
+            "capitulos" : 3
+        },
+	    {
+            "nombre" : "Filemón",
+            "ingles" : "Philemon",
+            "capitulos" : 1
+        },
+	    {
+            "nombre" : "Hebreos",
+            "ingles" : "Hebrews",
+            "capitulos" : 13
+        },
+	    {
+            "nombre" : "Santiago",
+            "ingles" : "James",
+            "capitulos" : 5
+        },
+	    {
+            "nombre" : "1 Pedro",
+            "ingles" : "1 Peter",
+            "capitulos" : 5
+        },
+	    {
+            "nombre" : "2 Pedro",
+            "ingles" : "2 Peter",
+            "capitulos" : 3
+        },
+	    {
+            "nombre" : "1 Juan",
+            "ingles" : "1 John",
+            "capitulos" : 5
+        },
+	    {
+            "nombre" : "2 Juan",
+            "ingles" : "2 John",
+            "capitulos" : 1
+        },
+	    {
+            "nombre" : "3 Juan",
+            "ingles" : "3 John",
+            "capitulos" : 1
+        },
+	    {
+            "nombre" : "Judas",
+            "ingles" : "Jude",
+            "capitulos" : 1
+        },
+	    {
+            "nombre" : "Apocalipsis",
+            "ingles" : "Revelation",
+            "capitulos" : 22
+        }
+    ]
+}
