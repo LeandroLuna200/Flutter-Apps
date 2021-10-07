@@ -1,8 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lector_qr">
+    package="com.leandroluna.lector_qr">
+    <uses-permission android:name="android.permission.Camera"/>
    <application
-        android:label="lector_qr"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Lector QR"
+        android:icon="@mipmap/launcher_icon">
 
         <meta-data android:name="com.google.android.geo.API_KEY"
                android:value="AIzaSyA6vrch7Ei_0f86AcvQuJZuskfwV0Dqj80"/>

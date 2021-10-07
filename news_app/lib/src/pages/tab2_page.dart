@@ -6,33 +6,28 @@ import 'package:news_app/src/widgets/lista_noticias.dart';
 import 'package:provider/provider.dart';
 
 class Tab2Page extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     final newsService = Provider.of<NewsService>(context);
 
     return SafeArea(
-      child: Scaffold(
-        body: Column(
-          children: <Widget> [
-            _ListaCategorias(),
-            Expanded(
-              child: ( newsService.categoryArticles[newsService.selectedCategory].isEmpty )
-                ? Center( child: CircularProgressIndicator())
-                : ListaNoticias(
-                  newsService.getArticulosCategoriaSeleccionada
-                ),
-          
-            )        
-          ],
-        ),
-      )
-    );
+        child: Scaffold(
+      body: Column(
+        children: <Widget>[
+          _ListaCategorias(),
+          Expanded(
+            child: (newsService
+                    .categoryArticles[newsService.selectedCategory].isEmpty)
+                ? Center(child: CircularProgressIndicator())
+                : ListaNoticias(newsService.getArticulosCategoriaSeleccionada),
+          )
+        ],
+      ),
+    ));
   }
 }
 
 class _ListaCategorias extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     final categories = Provider.of<NewsService>(context).categories;
@@ -40,7 +35,7 @@ class _ListaCategorias extends StatelessWidget {
     List<String> categoriaLabel = [
       'Negocios',
       'Entretenimiento',
-      'General',
+      // 'General',
       'Salud',
       'Ciencia',
       'Deporte',
@@ -62,9 +57,9 @@ class _ListaCategorias extends StatelessWidget {
               padding: EdgeInsets.all(8),
               child: Column(
                 children: [
-                  _CategoryButton( categories[index] ),
+                  _CategoryButton(categories[index]),
                   SizedBox(),
-                  Text( categoriaLabel[index]),
+                  Text(categoriaLabel[index]),
                 ],
               ),
             ),
@@ -76,17 +71,15 @@ class _ListaCategorias extends StatelessWidget {
 }
 
 class _CategoryButton extends StatelessWidget {
-
   final Category categoria;
 
-  const _CategoryButton( this.categoria );
-  
+  const _CategoryButton(this.categoria);
+
   @override
   Widget build(BuildContext context) {
-
     final newsService = Provider.of<NewsService>(context);
     return GestureDetector(
-      onTap: (){
+      onTap: () {
         final newsService = Provider.of<NewsService>(context, listen: false);
         newsService.selectCategory = categoria.name;
       },
@@ -95,13 +88,13 @@ class _CategoryButton extends StatelessWidget {
         height: 40,
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          color: Colors.white, 
+          color: Colors.white,
         ),
         child: Icon(
           categoria.icon,
           color: (newsService.selectedCategory == this.categoria.name)
-                 ? miTema.accentColor
-                 : Colors.black,
+              ? miTema.accentColor
+              : Colors.black,
         ),
       ),
     );

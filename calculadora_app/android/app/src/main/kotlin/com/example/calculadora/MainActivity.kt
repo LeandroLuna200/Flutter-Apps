@@ -1,4 +1,4 @@
-package com.example.calculadora
+package com.leandroluna.calculadora
 
 import io.flutter.embedding.android.FlutterActivity
 

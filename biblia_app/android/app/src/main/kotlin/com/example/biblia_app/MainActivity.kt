@@ -1,4 +1,4 @@
-package com.example.biblia_app
+package com.leandroluna.biblia_app
 
 import io.flutter.embedding.android.FlutterActivity
 
