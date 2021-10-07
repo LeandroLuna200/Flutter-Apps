@@ -1,6 +1,6 @@
 # calculadora
 
-A new Flutter project.
+Proyecto de aplicacion mobile de una calculadora. Aun en desarrollo
 
 ## Getting Started
 
